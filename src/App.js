@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import RegisterPage from './RegisterPage';
+import LoginPage from './LoginPage';
+import HomePage from './HomePage';
 
-function App() {
+
+function App(props) {
   return (
-    <div className="App">
-  
+    <div className="container">
+      <RegisterPage/>
+      <LoginPage/>
+      <HomePage/>
     </div>
   );
 }
