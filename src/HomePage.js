@@ -2,6 +2,14 @@ import React from 'react';
 import top_circle from './img/top_circle2.svg';
 import Star from './img/star.svg';
 import EmptyStar from './img/empty_star.svg';
+import Globe from './img/globe.svg';
+import Plate from './img/plate.svg';
+import Balloon from './img/balloon.svg';
+import bottom_circle2 from './img/bottom_circle2.svg';
+import Home from './img/home.svg';
+import Person from './img/person.svg';
+
+
 
 function HomePage() {
     return (
@@ -62,27 +70,27 @@ function HomePage() {
                 </div>
             </div>
             <div className = "order_container">
-                <img className = "worldglobe" src="assets/globe.svg" alt="globe"/>
+                <img className = "worldglobe" src= {Globe} alt="globe"/>
                 <div className = "order_beans"> 
                     <h3>Order your Beans</h3>
                     <p>Delicious beans with class!</p>
                 </div>
                 <div className = "order_beans_plate">
-                    <img className = "plate" src="assets/plate.svg" alt="plate"/>
+                    <img className = "plate" src= {Plate} alt="plate"/>
                 </div>
             </div>
             <div className = "balloon_container">
-            <img className = "balloon" src="assets/balloon.svg" alt="ballon"/>
+            <img className = "balloon" src= {Balloon} alt="ballon"/>
             </div>
         </div>
-        <img className = "bottom_circle2" src="assets/bottom_circle2.svg" alt="bottom_circle2"/>
+        <img className = "bottom_circle2" src= {bottom_circle2} alt="bottom_circle2"/>
         <footer className = "footer">
-            <img className = "home" src="assets/home.svg" alt="home"/>
-            <img className = "user" src="assets/person.svg" alt="user"/>
+            <img className = "home" src= {Home} alt="home"/>
+            <img className = "user" src= {Person} alt="user"/>
         </footer>
     </div>
     </div>
     )
 }
 
-export default HomePage
+export default HomePage;
